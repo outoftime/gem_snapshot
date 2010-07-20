@@ -13,7 +13,7 @@ file, and restore the YAML file to installed gems.
 
 Then perhaps on another machine...
 
-	$ sudo gem snapshot restore -f gems.yml
+  $ sudo gem snapshot restore -f gems.yml
 
 If you don't provide a `-f` argument, the snapshot is dumped to stdout and
 read from stdin. When running the `restore` subcommand, you can also use any
