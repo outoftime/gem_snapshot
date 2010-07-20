@@ -1,0 +1,25 @@
+= gem snapshot
+
+A small RubyGems plugin to dump a snapshot of your installed gems to a YAML
+file, and restore the YAML file to installed gems.
+
+== Installation
+
+  $ sudo gem install gem_snapshot
+
+== Usage
+
+  $ gem snapshot dump -f gems.yml
+
+Then perhaps on another machine...
+
+	$ sudo gem snapshot restore -f gems.yml
+
+If you don't provide a `-f` argument, the snapshot is dumped to stdout and
+read from stdin. When running the `restore` subcommand, you can also use any
+of the standard options for `gem install`.
+
+== Free Software
+
+This is free software; do what you wish with it. The author relinquishes all
+copyright on this software to the maximum extent permitted by law.
