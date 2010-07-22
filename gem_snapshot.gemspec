@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name = 'gem_snapshot'
-  spec.version = Gem::Version.new('0.0.2')
+  spec.version = Gem::Version.new('0.0.3')
   spec.files = Dir.glob(File.join(File.dirname(__FILE__), 'lib', '**', '*.rb'))
   spec.summary = 'Dump and restore snapshot of installed gems.'
   spec.description = <<-DESC
