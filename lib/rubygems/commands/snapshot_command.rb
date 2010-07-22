@@ -1,4 +1,5 @@
 require 'rubygems/install_update_options'
+require 'yaml'
 
 class Gem::Commands::SnapshotCommand < Gem::Command
   include Gem::InstallUpdateOptions
